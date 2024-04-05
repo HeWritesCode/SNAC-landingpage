@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SNAC Protein</title>
+</head>
+
+<body>
+
+    <nav>
+
+        <header>
+            <button id="toggleDrawer" class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </header>
+    
+        <nav id="drawer">
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Victor Conte's Program</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="navbar">
+            <img src="images/SNAC_Logo.webp" alt="images">
+            <a href="#">Shop</a>
+            <a href="#">Gallery</a>
+            <a href="#">Victor Contes's Program</a>
+            <a href="#">About Us</a>
+        </div>
+
+    </nav>
+    <div class="snac">
+        <img src="images/zma.jpg" alt="image">
+        <img src="images/Victor.jpg" alt="image" id="Victor">
+        <h1>Performance Enhancement Sports Nutrition</h1>
+    </div>
+    <div class="button"><button>SHOP NOW</button></div>
+
+    <div class="container">
+        <h1>Next Generation Supplements</h1>
+        <p>SNAC (Scientific Nutrition for Advanced Conditioning) supplements are widely recognized for their role in
+            optimizing athletic performance and supporting overall health. Developed by Victor Conte, the founder of
+            BALCO Laboratories, SNAC supplements are formulated based on extensive scientific research and are trusted
+            by athletes across various sports disciplines. From pre-workout formulas designed to enhance energy and
+            focus to post-workout recovery blends aimed at promoting muscle repair and growth, SNAC offers a
+            comprehensive range of products tailored to meet the specific needs of athletes. Each supplement undergoes
+            rigorous testing to ensure safety, efficacy, and compliance with industry standards. With a commitment to
+            quality and innovation, SNAC supplements continue to be a go-to choice for athletes seeking to achieve peak
+            performance levels and maintain optimal health. </p>
+        <a href="#" class="button">Read More</a>
+    </div>
+
+    <div class="supplements">
+        <h2>Popular Products</h2>
+        <table>
+            <tr>
+                <img src="images/s1.jpg" alt="image">
+                <img src="images/s2.jpg" alt="image">
+                <img src="images/s3.jpg" alt="image">
+                <img src="images/s4.jpg" alt="image">
+            </tr>
+            <tr>
+                <th>SNAC ZMA®-5, 90 Capsules</th>
+                <th>SNAC Multi-Vitamins, 60 Capsules</th>
+                <th>SNAC Vitalyze, 90 Capsules</th>
+                <th>Preworkout Performance Powder, 24 servings </th>
+            </tr>
+            <tr>
+                <td id="sup-price">
+                    <p>Price: $22.95</p>
+                </td>
+                <td>
+                    <p>Price: $17.95</p>
+                </td>
+                <td>
+                    <p>Price: $27.95</p>
+                </td>
+                <td>
+                    <p>Price: $34.95</p>
+                </td>
+            </tr>
+        </table>
+
+        <div class="cart">
+            <a href="#">
+                <p>ADD TO CART</p>
+            </a>
+            <a href="#">
+                <p>ADD TO CART</p>
+            </a>
+            <a href="#">
+                <p>ADD TO CART</p>
+            </a>
+            <a href="#">
+                <p>ADD TO CART</p>
+            </a>
+        </div>
+
+    </div>
+
+    <table class="chart">
+        <tr>
+            <td><img src="images/results.jpg" alt="image"></td>
+        </tr>
+    </table>
+
+    <table class="chart2">
+        <tr>
+            <td><img src="images/chart2.webp" alt="image"></td>
+        </tr>
+    </table>
+
+    <table class="chart3">
+        <tr>
+            <td><img src="images/Conte1.jpg" alt="image"></td>
+        </tr>
+    </table>
+
+    <table class="chart4">
+        <tr>
+            <td><img src="images/strength.jpg" alt="image"></td>
+        </tr>
+    </table>
+
+    <div class="sign-up">
+        <h2>SIGN UP FOR SPECIAL DISCOUNTS</h2>
+
+        <form action="/submit" method="post">
+            <div class="sign"><label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+            </div>
+
+            <div class="sign">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+            </div>
+
+
+            <input type="submit" value="Send Email">
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,636 @@
+body {
+    font-family: 'Prompt' sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+/*navigation drawer*/
+
+.hamburger, #drawer {
+    display: none;
+}
+
+nav img {
+    width: 250px;
+    margin-right: 100px;
+    box-shadow: 5px 90px 90px 30px gold;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+    color: gold;
+    font-size: 18px;
+    display: block;
+    float: right;
+    text-align: center;
+    padding: 14px 20px;
+    margin-right: 20px;
+}
+
+.navbar a:hover {
+    color: white;
+    font-size: 15px;
+    text-decoration: underline;
+    transition: ease 0.4s;
+}
+
+.snac {
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 20px auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.snac h1 {
+    color: white;
+    font-family: 'Truculenta', sans-serif;
+    font-size: 45px;
+    text-align: right;
+    margin-left: 5px;
+    text-decoration: overline;
+}
+
+.snac img {
+    width: 180px;
+    box-shadow: 120px 0 70px -70px gold;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#Victor {
+    width: 38%;
+    box-shadow: none;
+    margin-left: 45px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px white;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 180px;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: gold;
+    border: 5px double gold;
+    border-radius: 5px;
+}
+
+.button button:hover {
+    width: 5;
+    font-size: 17px;
+    padding: 8px 18px;
+    cursor: pointer;
+    background-color: gold;
+    color: white;
+    transition: ease background-color 0.1s, color 0.1s, border-color 0.1s;
+
+}
+
+.container {
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gold;
+}
+
+.container h1 {
+    font-family: 'Truculenta', sans-serif;
+    color: gold;
+    text-decoration: underline;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: larger;
+    color: gold;
+}
+
+.container a:hover {
+    font-size: 18px;
+    text-decoration: line-through;
+    transition: ease 0.1s;
+    color: white;
+}
+
+.supplements {
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid gold;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gold;
+}
+
+.supplements h2 {
+    font-family: 'Truculenta', sans-serif;
+    color: black;
+    text-decoration: underline;
+}
+
+.supplements img {
+    width: 150px;
+    padding: 20px;
+    border-radius: 15%;
+    height: 200px;
+}
+
+.supplements :nth-of-type(1) {
+    padding-left: 41px;
+}
+
+.supplements th {
+    color: black;
+    width: 10px;
+    padding: 0 75px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.supplements td {
+    color: black;
+}
+
+#sup-price {
+    padding-left: 0;
+}
+
+.cart {
+    text-align: center;
+}
+
+.cart a {
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+    color: gray;
+    display: inline-block;
+    margin: 0 5px;
+    padding-right: 65px;
+}
+
+.cart :nth-of-type(1) {
+    padding-left: 0;
+
+}
+
+.cart a:hover {
+    font-size: 14px;
+    text-decoration: none;
+    transition: ease 0.2s;
+    color: blue;
+}
+
+.chart {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gold;
+}
+
+.chart2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gold;
+}
+
+.chart2 img {
+    width: 800px;
+}
+
+.chart3 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gold;
+}
+
+.chart3 img {
+    width: 800px;
+}
+
+.chart4 {
+    max-width: 130px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: -55px 0 0px -5px gray;
+}
+
+.chart4 img {
+    width: 1300px;
+    border-radius: 20%;
+}
+
+.sign-up {
+    font-family: 'Prompt';
+    color: gold;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.sign-up h2 {
+    font-family: 'Prompt';
+    color: gold;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gold;
+}
+
+input[type="submit"] {
+    background-color: gold;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1270px) {
+    .chart4 img {
+        width: 1000px;
+
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .snac h1 {
+        margin-right: 40px;
+
+
+    }
+
+    .snac img {
+        width: 160px;
+        margin-left: 40px;
+    }
+
+    #Victor {
+        width: 30%;
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (max-width: 1025px) {}
+
+@media only screen and (max-width: 980px) {
+    .navbar img {
+        margin-right: 70px;
+    }
+
+    .navbar a {
+        font-size: 13px;
+    }
+
+    nav img {
+        width: 150px;
+    }
+
+    .snac h1 {
+        font-size: 30px;
+        margin-left: 100px;
+        margin-right: 130px;
+    }
+
+    .snac img {
+        width: 110px;
+        margin-left: 130px;
+        margin-right: 100px;
+    }
+
+    #Victor {
+        width: 25%;
+        margin: 20px;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+
+    .container,
+    .supplements,
+    .chart img,
+    .chart2 img,
+    .chart3 img,
+    .chart4 img,
+    .sign-up {
+        width: 525px;
+    }
+
+    .supplements img {
+        width: 85px;
+        height: 100px;
+    }
+
+    .supplements th {
+        padding: 0 35px 0 35px;
+    }
+
+    .supplements :nth-of-type(1) {
+        padding-left: 30px;
+
+    }
+
+    .supplements td {
+        font-size: 11px;
+    }
+
+
+    .cart a {
+        padding: 0 40px;
+        font-size: smaller;
+        margin: 0;
+    }
+
+    .cart :nth-of-type(4) {
+        padding-right: 20px;
+        font-size: smaller;
+    }
+
+    .cart :nth-of-type(1) {
+        padding: 0;
+        font-size: smaller;
+    }
+
+    .cart :nth-last-of-type(2) {
+        padding: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* navigation drawer */
+    header {
+        background-color: #333;
+        padding: 10px,
+        position: relative;
+    }
+
+    .hamburger, #drawer {
+        display: block;
+    }
+
+    .hamburger {
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-size: 20px;
+        bottom: 90.5%;
+        position: absolute;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: gold;
+        margin: 5px auto;
+    }
+
+    #drawer {
+        position: fixed;
+        top: 0;
+        left: -250px;
+        height: 50%;
+        width: 180px;
+        background-color: gold;
+        color: gold;
+        transition: left 0.3s ease;
+        border-right: 2px solid white;
+        border-bottom: 4px solid white;
+    }
+
+    #drawer ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #drawer ul li {
+        padding: 10px;
+    }
+
+    #drawer ul li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    #drawer ul li a:hover {
+        text-decoration: underline;
+        color: white;
+    }
+
+    .content {
+        margin-right: 250px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        font-family: none;
+        text-decoration: none;
+        color: none;
+        font-size: none;
+        display: none;
+        float: none;
+        text-align: none;
+        padding: none;
+        margin-right: none;
+    }
+
+    .navbar img {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .snac h1 {
+        margin-right: 40px;
+        font-size: 20px;
+
+    }
+
+    .snac img {
+        width: 100px;
+        margin-left: 40px;
+        margin-right: 0;
+    }
+
+    #Victor {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 595px) {
+
+    .container,
+    .supplements,
+    .chart img,
+    .chart2 img,
+    .chart3 img,
+    .chart4 img,
+    .sign-up {
+        width: 425px;
+    }
+
+    .supplements {
+        max-width: 425px;
+    }
+
+    .supplements img {
+        width: 65px;
+        height: 85px;
+        padding: 21.1px;
+    }
+
+    .supplements :nth-of-type(1) {
+        padding-left: 17px;
+    }
+
+    .supplements th {
+        padding: 0 27px 0 27px;
+    }
+
+    .cart {
+        padding: 0;
+    }
+
+    .cart a {
+        padding: 0 40px;
+        font-size: xx-small;
+    }
+
+    .cart :nth-of-type(1) {
+        padding: 0;
+        font-size: xx-small;
+    }
+
+    .cart :nth-of-type(4) {
+        padding-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    nav img {
+        width: 120px;
+    }
+
+    .snac h1 {
+        margin-right: 30px;
+        font-size: 20px;
+
+
+    }
+
+    .snac img {
+        width: 100px;
+        margin-left: 40px;
+        margin-right: 0;
+    }
+
+    #Victor {
+        display: none;
+    }
+
+    .container {
+        max-width: 300px;
+        font-size: small;
+    }
+
+    .supplements {
+        max-width: 300px;
+    }
+
+    .supplements img {
+        width: 35px;
+        height: 45px;
+        padding: 17px;
+    }
+
+    .supplements :nth-of-type(1) {
+        padding-left: 17px;
+    }
+
+    .supplements th {
+        padding: 0 5px 0 5px;
+    }
+
+    .cart {
+        padding: 0;
+    }
+
+    .cart a {
+        padding: 0;
+        font-size: xx-small;
+    }
+
+    .cart :nth-of-type(1) {
+        padding: 0;
+        font-size: xx-small;
+    }
+
+    .cart :nth-of-type(4) {
+        padding-right: 0;
+    }
+
+    .container,
+    .supplements,
+    .chart img,
+    .chart2 img,
+    .chart3 img,
+    .chart4 img,
+    .sign-up {
+        width: 300px;
+    }
+
+    .sign-up h2 {
+        font-size: 15px;
+    }
+}
